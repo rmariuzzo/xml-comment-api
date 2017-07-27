@@ -1,6 +1,8 @@
-<h1 align=center>XML Comment API</h1>
-
-Parse XML comment that provide an API
+<div align=center>
+  <h1>XML Comment API</h1>
+  <p>Parse XML comment that provide an API</p>
+  <img src="banner.png">
+</div>
 
 ## Installation
 
