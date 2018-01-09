@@ -118,7 +118,7 @@ const XmlCommentApi = (xml) => {
           const after = _modified.substring(tag.end)
 
           // Calculate new offset.
-          offset = replacements.length - tag.contents.length
+          offset += replacements.length - tag.contents.length
 
           // Apply replacement.
           _modified = `${before}${replacements}${after}`
